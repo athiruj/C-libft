@@ -6,14 +6,14 @@
 /*   By: athi <athi@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/05 13:58:22 by athi              #+#    #+#             */
-/*   Updated: 2024/06/16 00:01:23 by athi             ###   ########.fr       */
+/*   Updated: 2024/06/16 10:46:36 by athi             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 // incomplete
 #include <stdlib.h>
 
-char	*ft_strj   oin(int size, char **strs, char *sep);
+char	*ft_strjoin(int size, char **strs, char *sep);
 
 int	ft_strlen(char *str)
 {

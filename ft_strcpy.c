@@ -6,7 +6,7 @@
 /*   By: athi <athi@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/15 23:02:47 by athi              #+#    #+#             */
-/*   Updated: 2024/06/15 23:15:14 by athi             ###   ########.fr       */
+/*   Updated: 2024/06/16 18:45:39 by athi             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@ char	*ft_strcpy(char *dest, char *src)
 	unsigned int	index;
 
 	index = 0;
-	while (src[index] != '\0')
-		dest[index] = src[index++];
+	while (*src)
+		dest[index++] = *src++;
 	dest[index] = '\0';
 	return (dest);
 }
